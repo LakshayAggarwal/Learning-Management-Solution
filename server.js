@@ -9,7 +9,7 @@ app.use(express.urlencoded({
     extended: true
 }))
 
-app.use('/api', require('./routes/api').route)
+app.use('/', require('./routes/api/').route)
 app.use('/index.html', express.static(path.join(__dirname, 'public')))
 
 const routes = {

@@ -4,9 +4,6 @@ const Student = require('../../db').Student
 const Batch = require('../../db').Batch
 const StudentBatchMap = require('../../db').StudentBatchMap
 
-
-
-
 /**
  * GET requests
  */
